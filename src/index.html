@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="mr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>वेणुस्वामी माठे - पवित्र तीर्थक्षेत्र</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">वेणुस्वामी माठे</div>
+            <ul class="nav-links">
+                <li><a href="#home">होम</a></li>
+                <li><a href="#abhangas">अभंग</a></li>
+                <li><a href="#history">इतिहास</a></li>
+                <li><a href="#venaswami">वेणुस्वामी</a></li>
+                <li><a href="#activities">क्रियाकलाप</a></li>
+                <li><a href="#donate">दान</a></li>
+                <li><a href="#library">ग्रंथालय</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section 1: Image Slider with Abhangas -->
+    <section id="abhangas" class="slider-section">
+        <div class="slider-container">
+            <div class="slider-wrapper">
+                <div class="slide active">
+                    <img src="https://via.placeholder.com/1200x400?text=Abhanga+1" alt="अभंग १">
+                    <div class="slide-text">
+                        <h3>अभंग I</h3>
+                        <p>"हे प्रभू, आम्हाला न्याय्य पथावर मार्गदर्शन करा आणि आम्हाच्या आत्म्याला दिव्य ज्ञानाने प्रकाशित करा।"</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://via.placeholder.com/1200x400?text=Abhanga+2" alt="अभंग २">
+                    <div class="slide-text">
+                        <h3>अभंग II</h3>
+                        <p>"भक्ती आणि श्रद्धेद्वारे, आपल्याला अनंत कृपा मिळते जो सर्व सीमा ओलांडून जाते।"</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://via.placeholder.com/1200x400?text=Abhanga+3" alt="अभंग ३">
+                    <div class="slide-text">
+                        <h3>अभंग III</h3>
+                        <p>"हृदयाच्या मंदिरात, सर्व आत्म्यांचे पवित्र एकतेच्या उत्सवात मिलन होते।"</p>
+                    </div>
+                </div>
+            </div>
+            <button class="prev-btn" onclick="prevSlide()">&#10094;</button>
+            <button class="next-btn" onclick="nextSlide()">&#10095;</button>
+            <div class="slider-dots">
+                <span class="dot active" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: History of the Place -->
+    <section id="history" class="history-section">
+        <div class="container">
+            <h2>माठ्याचा इतिहास</h2>
+            <div class="history-content">
+                <div class="history-text">
+                    <p>
+                        वेणुस्वामी माठे पीढ्या धरून आध्यात्मिकता आणि भक्तीचा प्रकाशस्तंभ म्हणून उभा आहे। पवित्र भूमीच्या हृदयात स्थापित, हा सम्मानित संस्था आध्यात्मिक शिक्षण, ध्यान आणि समाजसेवेचे केंद्र रहा आहे।
+                    </p>
+                    <p>
+                        शतकांमध्ये, या पवित्र स्थळाने अमुक्य तीर्थयात्र्यांना सांत्वना, ज्ञान आणि दैवी संयोग शोधताना पाहिले आहे। माठ्याच्या शिक्षणे श्रद्धा, करुणा आणि न्याय्य जीवनाच्या महत्त्वावर जोर देतात, विविध पार्श्वभूमीचे भक्त आकर्षित करतात।
+                    </p>
+                    <p>
+                        आज, वेणुस्वामी माठे प्राचीन आध्यात्मिक ज्ञान जतन करण्याच्या पवित्र मिशनचा सातत्य ठेवत आधुनिक आध्यात्मिक समुदायाला अटूट समर्पणाने सेवा करत आहे।
+                    </p>
+                </div>
+                <div class="history-image">
+                    <img src="https://via.placeholder.com/400x300?text=Historic+Temple" alt="ऐतिहासिक मंदिर">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Information about Venaswami -->
+    <section id="venaswami" class="venaswami-section">
+        <div class="container">
+            <h2>Sri Venaswami - Founder & Spiritual Master</h2>
+            <div class="venaswami-content">
+                <div class="venaswami-image">
+                    <img src="https://via.placeholder.com/300x400?text=Venaswami" alt="Sri Venaswami">
+                </div>
+                <div class="venaswami-text">
+                    <p>
+                        <strong>Sri Venaswami</strong> was a divine saint and spiritual master who dedicated his life to spreading the message of universal love, devotion, and spiritual enlightenment.
+                    </p>
+                    <p>
+                        Born with an exceptional spiritual inclination, Sri Venaswami spent years in deep meditation and spiritual practices, eventually achieving profound spiritual wisdom. He established the Venaswami Matha as a sanctuary where seekers could find guidance on
+                        their spiritual journey.
+                    </p>
+                    <p>
+                        His teachings emphasize the unity of all beings, the importance of bhakti (devotion), and the path of dharma (righteousness). Through his compassionate guidance and extraordinary spiritual insight, Sri Venaswami touched the lives of thousands.
+                    </p>
+                    <p>
+                        <em>"The greatest treasure is not wealth, but the peace found in a devoted heart."</em> - Sri Venaswami
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Activities at the Matha -->
+    <section id="activities" class="activities-section">
+        <div class="container">
+            <h2>क्रियाकलाप व सेवा</h2>
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <div class="activity-icon">🕉️</div>
+                    <h3>दैनिक प्रार्थना व पूजा</h3>
+                    <p>दिवसभर आयोजित पवित्र धार्मिक विधी आणि भक्तिपूर्ण समारंभ अनुभवा, आध्यात्मिक संयोग आणि आंतरिक शांती वाढवून.</p>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-icon">🧘</div>
+                    <h3>ध्यान सेशन</h3>
+                    <p>मार्गदर्शित ध्यान प्रथांमध्ये सामील व्हा जे मनाला शांत करण्यासाठी, आध्यात्मिक जागरूकता वाढवण्यासाठी आणि समग्र कल्याण प्रोत्साहित करण्यासाठी तयार केले आहे.</p>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-icon">📿</div>
+                    <h3>भक्ती संगीत समारंभ</h3>
+                    <p>भक्तिपूर्ण संगीत कार्यप्रदर्शन आनंद घ्या जे पारंपरिक आणि समकालीन आध्यात्मिक रचनांद्वारे दैवीची उद्‍यापन करतात.</p>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-icon">📚</div>
+                    <h3>शास्त्र अभ्यास</h3>
+                    <p>अनुभवी शिक्षकांसह पवित्र ग्रंथ शिखा आणि चर्चा करा, आध्यात्मिक तत्वज्ञान आणि ज्ञानाची गहरी समजूत मिळवा.</p>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-icon">🤝</div>
+                    <h3>समाज सेवा</h3>
+                    <p>सेवा (निःस्वार्थ सेवा) कार्यक्रमांमध्ये सामील व्हा जे स्थानिक समुदायांना सहाय्य करतात आणि करुणाच्या तत्वांचा मूर्त रूप देतात.</p>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-icon">🎓</div>
+                    <h3>आध्यात्मिक कार्यशाळा</h3>
+                    <p>अनुभवी आध्यात्मिक मार्गदर्शकांद्वारे योग, तत्वज्ञान आणि आध्यात्मिक प्रथांवरील विशेष कार्यशाळांमध्ये सामील व्हा.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Donations -->
+    <section id="donate" class="donation-section">
+        <div class="container">
+            <h2>आमच्या पवित्र मिशनला समर्थन करा</h2>
+            <p class="donation-intro">
+                आपल्या उदार योगदानामुळे आमची आध्यात्मिक सेवा, समाज समर्थन आणि पवित्र परंपरा जतन करण्याची मिशन सुरू ठेवत आहे.
+            </p>
+            <div class="donation-options">
+                <div class="donation-card">
+                    <h3>📱 ऑनलाइन दान</h3>
+                    <p>आमच्या ऑनलाइन पोर्टलद्वारे सुरक्षितपणे दान करा</p>
+                    <button class="donate-btn">आता दान करा</button>
+                </div>
+                <div class="donation-card">
+                    <h3>🎁 कार्यक्रम प्रायोजन करा</h3>
+                    <p>माठ्यातील विशिष्ट क्रियाकलाप किंवा कार्यक्रमांना समर्थन दा</p>
+                    <button class="donate-btn">प्रायोजन करा</button>
+                </div>
+                <div class="donation-card">
+                    <h3>🏛️ वारसा दान</h3>
+                    <p>आमच्या दीर्घकालीन दृष्टीचा भाग व्हा</p>
+                    <button class="donate-btn">अधिक जाणून घ्या</button>
+                </div>
+            </div>
+            <div class="donation-info">
+                <p><strong>बँक स्थानांतर:</strong> [बँक तपशील येथे]</p>
+                <p><strong>संपर्क:</strong> donations@venaswamimatha.org</p>
+                <p><strong>कर सुविधा:</strong> सर्व दान लागू कायद्यांतर्गत कर-कटौती योग्य आहे.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Library -->
+    <section id="library" class="library-section">
+        <div class="container">
+            <h2>डिजिटल ग्रंथालय</h2>
+            <p class="library-intro">
+                पवित्र ग्रंथ, आध्यात्मिक लेखन, ऑडियो व्याख्यान आणि भक्तिपूर्ण संसाधनांचे आमचे व्यापक संग्रह अवलोकन करा.
+            </p>
+            <div class="library-grid">
+                <div class="library-card">
+                    <div class="library-icon">📖</div>
+                    <h3>पवित्र ग्रंथ</h3>
+                    <p>वेद, उपनिषद, भगवद गीता आणि इतर आध्यात्मिक शास्त्र</p>
+                    <button class="library-btn">ब्राउज करा</button>
+                </div>
+                <div class="library-card">
+                    <div class="library-icon">🎵</div>
+                    <h3>ऑडियो व्याख्यान</h3>
+                    <p>प्रसिद्ध गुरुंचे आध्यात्मिक प्रवचन आणि शिक्षण</p>
+                    <button class="library-btn">ऐका</button>
+                </div>
+                <div class="library-card">
+                    <div class="library-icon">🎬</div>
+                    <h3>व्हिडियो संसाधन</h3>
+                    <p>भक्तिपूर्ण व्हिडियो, धार्मिक विधी आणि आध्यात्मिक वृत्तचित्र</p>
+                    <button class="library-btn">पहा</button>
+                </div>
+                <div class="library-card">
+                    <div class="library-icon">✍️</div>
+                    <h3>आध्यात्मिक लेखन</h3>
+                    <p>निबंध, काव्य आणि समकालीन आध्यात्मिक साहित्य</p>
+                    <button class="library-btn">वाचा</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>आमच्या बद्दल</h4>
+                <p>वेणुस्वामी माठे आध्यात्मिक वृद्धी, समाज सेवा आणि पवित्र परंपरा जतन करण्यास समर्पित आहे.</p>
+            </div>
+            <div class="footer-section">
+                <h4>द्रुत लिंक</h4>
+                <ul>
+                    <li><a href="#home">होम</a></li>
+                    <li><a href="#history">इतिहास</a></li>
+                    <li><a href="#activities">क्रियाकलाप</a></li>
+                    <li><a href="#library">ग्रंथालय</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>संपर्क</h4>
+                <p>ईमेल: info@venaswamimatha.org</p>
+                <p>फोन: +1 (XXX) XXX-XXXX</p>
+                <p>पता: [पवित्र स्थान]</p>
+            </div>
+            <div class="footer-section">
+                <h4>आमचे अनुसरण करा</h4>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">YouTube</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 वेणुस्वामी माठे. सर्व अधिकार राखीव. | गोपनीयता धोरण | सेवा अटी</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
